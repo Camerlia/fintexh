@@ -37,7 +37,7 @@ function App() {
         </nav>
       </div>
 
-      <div className="bg-[url('../public/home01.jpg.png')] h-[100vh] bg-cover pt-[120px] pl-[5.2vw]">
+      <div className="bg-[url('/home01.jpg.png')] h-[100vh] bg-cover pt-[120px] pl-[5.2vw]">
         <div className={`max-w-[850px]`}>
           <h1 className={`text-white font-bold md:text-6xl text-3xl`}>
             We are Beyond Banking
@@ -56,13 +56,13 @@ function App() {
             your one-stop payment services platform and more.
           </p>
           <img
-            src={`../public/frame.png`}
+            src={`/frame.png`}
             className={`sm:max-w-[350px] `}
             alt={``}
           />
           <div className={`flex gap-3 py-4`}>
-            <img src={`../public/google-play.svg`} alt={``} />
-            <img src={`../public/appstore.svg`} alt={``} />
+            <img src={`/google-play.svg`} alt={``} />
+            <img src={`/appstore.svg`} alt={``} />
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ function App() {
             <div class="relative flex-shrink-0 z-10 w-full mx-auto pt-0">
               <div className={`w-72 flex justify-end`}>
                 <img
-                  src={`../public/slide-img-1.png`}
+                  src={`/slide-img-1.png`}
                   alt={``}
                   className={`max-h-[250px]`}
                 />
@@ -91,7 +91,7 @@ function App() {
             <div class="relative flex-shrink-0 z-10 w-full mx-auto pt-0">
               <div className={`w-72 flex justify-end`}>
                 <img
-                  src={`../public/slide-img-2.png`}
+                  src={`/slide-img-2.png`}
                   alt={``}
                   className={`max-h-[250px]`}
                 />
@@ -110,7 +110,7 @@ function App() {
             <div class="relative flex-shrink-0 z-10 w-full mx-auto pt-0">
               <div className={`w-72 flex justify-end`}>
                 <img
-                  src={`../public/slide-img-6.png`}
+                  src={`/slide-img-6.png`}
                   alt={``}
                   className={`max-h-[250px]`}
                 />
@@ -129,7 +129,7 @@ function App() {
             <div class="relative flex-shrink-0 z-10 w-full mx-auto pt-0">
               <div className={`w-72 flex justify-end`}>
                 <img
-                  src={`../public/slide-img-5.png`}
+                  src={`/slide-img-5.png`}
                   alt={``}
                   className={`max-h-[250px]`}
                 />
@@ -167,14 +167,14 @@ function App() {
               </div>
             </div>
             <div className={`rounded-2xl overflow-hidden`}>
-              <img src={`../public/OurServices01.jpg.png`} alt={``} />
+              <img src={`/OurServices01.jpg.png`} alt={``} />
             </div>
           </div>
         </div>
         <div className={`bg-white p-10`}>
           <div className=" flex w-full gap-4 px-[5.6vw] pl-[5.69vw] md:flex-row md:justify-between md:items-center">
             <div className={`rounded-2xl overflow-hidden`}>
-              <img src={`../public/OurServices02.jpg.png`} alt={``} />
+              <img src={`/OurServices02.jpg.png`} alt={``} />
             </div>
             <div className=" w-full h-full ">
               <div className="md:w-[41.7vw] md:pr-0 md:pl-0 md:mt-0 md:ml-0 flex flex-col md:items-end">
@@ -207,7 +207,7 @@ function App() {
               </div>
             </div>
             <div className={`rounded-2xl overflow-hidden`}>
-              <img src={`../public/OurServices03.jpg.png`} alt={``} />
+              <img src={`/OurServices03.jpg.png`} alt={``} />
             </div>
           </div>
         </div>
@@ -218,14 +218,14 @@ function App() {
           <div className="flex flex-col justify-center py-[2.63vw] md:flex-col md:justify-center md:items-center lg:flex-row lg:justify-start lg:items-center lg:p-0">
             <div className="relative w-full rounded-md overflow-hidden md:flex lg:flex flex-shrink-0 mb-0 lg:w-[49.56vw] lg:h-[27.56vw]">
               <img
-                src={`../public/OurServices01.jpg.png`}
+                src={`/OurServices01.jpg.png`}
                 alt={`service image`}
               />
             </div>
             <div className=" md:flex md:flex-col md:justify-center md:items-start md:flex-shrink-0 md:pb-0 md:ml-[48px] lg:text-[2.08vw] lg:pb-[20px] lg:ml-[3.91vw] lg:w-[31vw]">
               <div className={`p-6 bg-white`}>
                 <img
-                  src={`../public/qr-code.png`}
+                  src={`/qr-code.png`}
                   alt={`qr-code`}
                   width={100}
                 />
@@ -235,8 +235,8 @@ function App() {
                   <span className={`text-teal-500`}>Android</span>
                 </p>
                 <div className={`flex gap-3 py-4`}>
-                  <img src={`../public/google-play.svg`} alt={``} />
-                  <img src={`../public/appstore.svg`} alt={``} />
+                  <img src={`/google-play.svg`} alt={``} />
+                  <img src={`/appstore.svg`} alt={``} />
                 </div>
               </div>
             </div>
@@ -252,7 +252,7 @@ function App() {
           <div className={`flex w-full px-[5.6vw] gap-4 pl-[5.69vw]`}>
             <div className="w-[222.286px] mr-[90px]">
               <div className="relative overflow-hidden rounded-lg w-[77.78vw] h-[77.78vw] lg:w-[21.3vw] lg:h-[21.3vw]">
-                <img src={`../public/customer-think-img-0.png.png`} alt={``} />
+                <img src={`/customer-think-img-0.png.png`} alt={``} />
               </div>
 
               <p
@@ -266,7 +266,7 @@ function App() {
           <div className={`flex w-full px-[5.6vw] gap-4 pl-[5.69vw]`}>
             <div className="w-[222.286px] mr-[90px]">
               <div className="relative overflow-hidden rounded-lg w-[77.78vw] h-[77.78vw] lg:w-[21.3vw] lg:h-[21.3vw]">
-                <img src={`../public/customer-think-img-0.png.png`} alt={``} />
+                <img src={`/customer-think-img-0.png.png`} alt={``} />
               </div>
 
               <p
@@ -280,7 +280,7 @@ function App() {
           <div className={`flex w-full px-[5.6vw] gap-4 pl-[5.69vw]`}>
             <div className="w-[222.286px] mr-[90px]">
               <div className="relative overflow-hidden rounded-lg w-[77.78vw] h-[77.78vw] lg:w-[21.3vw] lg:h-[21.3vw]">
-                <img src={`../public/customer-think-img-0.png.png`} alt={``} />
+                <img src={`/customer-think-img-0.png.png`} alt={``} />
               </div>
 
               <p
@@ -298,12 +298,12 @@ function App() {
           <div className={`flex flex-row gap-4`}>
             <div className="flex flex-col justify-start ml-0 pl-[5.65vw] md:flex-col md:justify-start md:items-center md:p-0 md:pl-[5.65vw] lg:justify-start lg:items-center lg:pl-[5.65vw]">
               <img
-                src={`../public/security-banner-1.png.png`}
+                src={`/security-banner-1.png.png`}
                 alt={`security image`}
                 className="relative cursor-pointer w-[88.88vw] mb-[3vw] lg:w-[41.1vw] lg:mb-[1.4vw]"
               />
               <img
-                src={`../public/security-banner-1.png.png`}
+                src={`/security-banner-1.png.png`}
                 alt={`security image`}
                 className="relative cursor-pointer w-[88.88vw] mb-[3vw] lg:w-[41.1vw] lg:mb-[1.4vw]"
               />
@@ -360,12 +360,12 @@ function App() {
             <div className={`flex flex-row gap-4`}>
               <div className="flex flex-col justify-start ml-0 pl-[5.65vw] md:flex-col md:justify-start md:items-center md:p-0 md:pl-[5.65vw] lg:justify-start lg:items-center lg:pl-[5.65vw]">
                 <img
-                  src={`../public/csm.png`}
+                  src={`/csm.png`}
                   alt={`security image`}
                   className="relative cursor-pointer w-[88.88vw] mb-[3vw] lg:w-[41.1vw] lg:mb-[1.4vw]"
                 />
                 <img
-                  src={`../public/csm.png`}
+                  src={`/csm.png`}
                   alt={`security image`}
                   className="relative cursor-pointer w-[88.88vw] mb-[3vw] lg:w-[41.1vw] lg:mb-[1.4vw]"
                 />
@@ -377,7 +377,7 @@ function App() {
 
       <div>
         <div className="bg-[#1DCF9F] ">
-          <div class="relative w-full min-h-[64px] bg-[url('../public/home01.jpg.png')] bg-cover bg-center">
+          <div class="relative w-full min-h-[64px] bg-[url('/home01.jpg.png')] bg-cover bg-center">
             <div class="absolute inset-0 bg-teal-500 opacity-80"></div>
             <div class="relative z-10 p-4 text-white">
               <div className="w-full max-w-full pl-[5.65vw]">
