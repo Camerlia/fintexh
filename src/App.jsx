@@ -11,23 +11,23 @@ function App() {
               <div>
                 <ul className="flex items-center flex-row list-none m-0 ml-[17px] p-0">
                   <li className="relative flex cursor-pointer font-normal text-[1.04vw] text-black mx-[0.75em] lg:mx-[1.56vw]">
-                    <a className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
+                    <a href={`#personal`} className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
                       Personal
                     </a>
                   </li>
                   <li className="relative flex cursor-pointer font-normal text-[1.04vw] text-black mx-[0.75em] lg:mx-[1.56vw]">
-                    <a className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
+                    <a href={`#Business`} className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
                       Business
                     </a>
                   </li>
                   <li className="relative flex cursor-pointer font-normal text-[1.04vw] text-black mx-[0.75em] lg:mx-[1.56vw]">
-                    <a className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
+                    <a href={`#company`} className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
                       Company
                     </a>
                   </li>
                   <li className="relative flex cursor-pointer font-normal text-[1.04vw] text-black mx-[0.75em] lg:mx-[1.56vw]">
-                    <a className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
-                      CSR
+                    <a href={`#csr`} className=" opacity-90 no-underline text-[2.5vw] leading-[22px] py-4 lg:text-[1.04vw] hover:text-teal-500 focus:text-teal-500 font-semibold -translate-y-[2px]">
+                      CSR 
                     </a>
                   </li>
                 </ul>
@@ -37,7 +37,7 @@ function App() {
         </nav>
       </div>
 
-      <div className="bg-[url('/home01.jpg.png')] h-[100vh] bg-cover pt-[120px] pl-[5.2vw]">
+      <div id={`personal`} className="bg-[url('/home01.jpg.png')] h-[100vh] bg-cover pt-[120px] pl-[5.2vw]">
         <div className={`max-w-[850px]`}>
           <h1 className={`text-white font-bold md:text-6xl text-3xl`}>
             We are Beyond Banking
@@ -147,7 +147,7 @@ function App() {
         </div>
       </div>
 
-      <div className={``}>
+      <div id={`business`} className={``}>
         <h3 className="text-left text-[3.1vw] text-[#210F60] leading-[4.17vw] pl-[5.69vw] pb-[2.6vw] ml-0">
           Our services
         </h3>
@@ -213,7 +213,7 @@ function App() {
         </div>
       </div>
 
-      <div className={` w-full bg-gray-300`}>
+      <div id={`company`} className={` w-full bg-gray-300`}>
         <div className="w-full max-w-full px-[5.65vw] py-[4.04vw] md:max-w-[720px] lg:max-w-[960px]">
           <div className="flex flex-col justify-center py-[2.63vw] md:flex-col md:justify-center md:items-center lg:flex-row lg:justify-start lg:items-center lg:p-0">
             <div className="relative w-full rounded-md overflow-hidden md:flex lg:flex flex-shrink-0 mb-0 lg:w-[49.56vw] lg:h-[27.56vw]">
@@ -244,7 +244,7 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-white py-8 font-bold`}>
+      <div id={`csr`} className={`bg-white py-8 font-bold`}>
         <h3 className="text-left text-[3.1vw] text-[#210F60] leading-[4.17vw] pl-[5.69vw] pb-[2.6vw] ml-0">
           Here is what our customers think
         </h3>
